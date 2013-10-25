@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  	<title>.nextUntil()</title>
+    <link rel="stylesheet" href="traversal.css" type="text/css" media="screen" />
+  	<script src="jquery.js" type="text/javascript"></script>
+  	<script type="text/javascript">
+  	  $(document).ready(function() {
+  	    $('#term-2').nextUntil('dt').css('background-color', 'red');
+  	  });
+  	</script>
+  </head>
+  <body>
+    <dl>
+      <dt>term 1</dt>
+      <dd>definition 1-a</dd>
+      <dd>definition 1-b</dd>
+      <dd>definition 1-c</dd>
+      <dd>definition 1-d</dd>
+  
+      <dt id="term-2">term 2</dt>
+      <dd>definition 2-a</dd>
+      <dd>definition 2-b</dd>
+      <dd>definition 2-c</dd>
+  
+      <dt>term 3</dt>
+      <dd>definition 3-a</dd>
+      <dd>definition 3-b</dd>
+    </dl>
+    
+    
+  </body>
+</html>
+
+
+
